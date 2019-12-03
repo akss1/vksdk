@@ -55,8 +55,8 @@ type UsersUser struct {
 	IsHiddenFromFeed       int               `json:"is_hidden_from_feed"`
 	CommonCount            int               `json:"common_count"`
 	Occupation             usersOccupation   `json:"occupation"`
-	Career                 []usersCareer     `json:"career"`
-	Military               []usersMilitary   `json:"military"`
+	Career                 []UsersCareer     `json:"career"`
+	Military               []UsersMilitary   `json:"military"`
 	University             int               `json:"university"`
 	UniversityName         string            `json:"university_name"`
 	Faculty                int               `json:"faculty"`
@@ -72,10 +72,10 @@ type UsersUser struct {
 	Tv                     string            `json:"tv"`
 	Books                  string            `json:"books"`
 	Games                  string            `json:"games"`
-	Universities           []usersUniversity `json:"universities"`
-	Schools                []usersSchool     `json:"schools"`
+	Universities           []UsersUniversity `json:"universities"`
+	Schools                []UsersSchool     `json:"schools"`
 	About                  string            `json:"about"`
-	Relatives              []usersRelative   `json:"relatives"`
+	Relatives              []UsersRelative   `json:"relatives"`
 	Quotes                 string            `json:"quotes"`
 	Lists                  []int             `json:"lists"`
 	Deactivated            string            `json:"deactivated"`
@@ -114,7 +114,7 @@ type usersContacts struct {
 	HomePhone   string `json:"home_phone"`
 }
 
-type usersCareer struct {
+type UsersCareer struct {
 	CityID    int    `json:"city_id"`    // City ID
 	Company   string `json:"company"`    // Company name
 	CountryID int    `json:"country_id"` // Country ID
@@ -156,7 +156,7 @@ type usersLastSeen struct {
 	Time     int `json:"time"`     // Last visit date (in Unix time)
 }
 
-type usersMilitary struct {
+type UsersMilitary struct {
 	CountryID int    `json:"country_id"` // Country ID
 	From      int    `json:"from"`       // From year
 	ID        int    `json:"id"`         // Military ID
@@ -183,14 +183,14 @@ type usersPersonal struct {
 	Smoking    int      `json:"smoking"`     // User's views on smoking
 }
 
-type usersRelative struct {
+type UsersRelative struct {
 	BirthDate string `json:"birth_date"` // Date of child birthday (format dd.mm.yyyy)
 	ID        int    `json:"id"`         // Relative ID
 	Name      string `json:"name"`       // Name of relative
 	Type      string `json:"type"`       // Relative type
 }
 
-type usersSchool struct {
+type UsersSchool struct {
 	City          int    `json:"city"`           // City ID
 	Class         string `json:"class"`          // School class letter
 	Country       int    `json:"country"`        // Country ID
@@ -203,7 +203,7 @@ type usersSchool struct {
 	YearTo        int    `json:"year_to"`        // Year the user finished to study
 }
 
-type usersUniversity struct {
+type UsersUniversity struct {
 	Chair           int    `json:"chair"`            // Chair ID
 	ChairName       string `json:"chair_name"`       // Chair name
 	City            int    `json:"city"`             // City ID
