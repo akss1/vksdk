@@ -1,7 +1,7 @@
-package api // import "github.com/SevereCloud/vksdk/5.92/api"
+package api // import "github.com/akss1/vksdk/5.92/api"
 
 import (
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/akss1/vksdk/5.92/object"
 )
 
 // FaveAddArticle adds a link to user faves.

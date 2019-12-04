@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/akss1/vksdk/5.92/object"
 )
 
 func TestVK_WidgetsGetComments(t *testing.T) {

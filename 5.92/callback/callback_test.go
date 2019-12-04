@@ -6,8 +6,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/SevereCloud/vksdk/5.92/handler"
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/akss1/vksdk/5.92/handler"
+	"github.com/akss1/vksdk/5.92/object"
 )
 
 func TestCallback_Handler(t *testing.T) { // nolint:gocyclo

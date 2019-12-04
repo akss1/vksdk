@@ -88,9 +88,9 @@ package main
 import (
 	"log"
 
-	"github.com/SevereCloud/vksdk/5.92/api"
+	"github.com/akss1/vksdk/5.92/api"
 
-	longpoll "github.com/SevereCloud/vksdk/5.92/longpoll-user"
+	longpoll "github.com/akss1/vksdk/5.92/longpoll-user"
 )
 
 func main() {

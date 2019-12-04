@@ -47,7 +47,7 @@ package main
 import (
     "log"
 
-    vkapi "github.com/SevereCloud/vksdk/5.92/api"
+    vkapi "github.com/akss1/vksdk/5.92/api"
 )
 
 func main() {

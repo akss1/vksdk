@@ -1,9 +1,9 @@
-package handler // import "github.com/SevereCloud/vksdk/5.92/handler"
+package handler // import "github.com/akss1/vksdk/5.92/handler"
 
 import (
 	"encoding/json"
 
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/akss1/vksdk/5.92/object"
 )
 
 // FuncList struct

@@ -1,4 +1,4 @@
-package longpoll // import "github.com/SevereCloud/vksdk/5.92/longpoll-bot"
+package longpoll // import "github.com/akss1/vksdk/5.92/longpoll-bot"
 
 import (
 	"encoding/json"
@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/akss1/vksdk/5.92/object"
 
-	"github.com/SevereCloud/vksdk/5.92/api"
-	"github.com/SevereCloud/vksdk/5.92/handler"
+	"github.com/akss1/vksdk/5.92/api"
+	"github.com/akss1/vksdk/5.92/handler"
 )
 
 // Longpoll struct

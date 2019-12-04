@@ -1,4 +1,4 @@
-package object // import "github.com/SevereCloud/vksdk/5.92/object"
+package object // import "github.com/akss1/vksdk/5.92/object"
 
 // Error codes. See https://vk.com/dev/errors
 const (

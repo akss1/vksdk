@@ -53,8 +53,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/SevereCloud/vksdk/5.92/callback"
-	"github.com/SevereCloud/vksdk/5.92/object"
+	"github.com/akss1/vksdk/5.92/callback"
+	"github.com/akss1/vksdk/5.92/object"
 )
 
 func main() {
