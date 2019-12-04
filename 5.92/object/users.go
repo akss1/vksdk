@@ -64,6 +64,7 @@ type UsersUser struct {
 	Graduation             int               `json:"graduation"`
 	HomeTown               string            `json:"home_town"`
 	Relation               int               `json:"relation"`
+	RelationPartner  	   UsersUserMin    `json:"relation_partner"`
 	Personal               usersPersonal     `json:"personal"`
 	Interests              string            `json:"interests"`
 	Music                  string            `json:"music"`
