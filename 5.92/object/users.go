@@ -86,7 +86,9 @@ type UsersUser struct {
 	MaidenName             string            `json:"maiden_name"`
 	Exports                usersExports      `json:"exports"`
 	Counters               usersUserCounters `json:"counters"`
-	Contacts               usersContacts     `json:"contacts"`
+	//Contacts               usersContacts     `json:"contacts"`
+	MobilePhone string `json:"mobile_phone"`
+	HomePhone   string `json:"home_phone"`
 	FoundWith              int               `json:"found_with"` // TODO: check it
 	// TODO: education
 }
